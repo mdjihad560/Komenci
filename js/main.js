@@ -329,6 +329,8 @@ $(window).on("resize", function(){
 
 $(window).on("load" ,function(){
 
+  $("#preloader").fadeOut(500);
+
 
 /*--------------------------------------------------------------
 THREE COLUMN FILTER JS INIT

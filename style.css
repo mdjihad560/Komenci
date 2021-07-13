@@ -296,7 +296,18 @@ input::placeholder { /* Most modern browsers support this now. */
 /*---------------------------------------------------
 HOME PAGE STYLESHEET 
 ----------------------------------------------------*/
-
+#preloader {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    margin-top: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*---------------------------------------------------
 HEADER SECTION
 ----------------------------------------------------*/
