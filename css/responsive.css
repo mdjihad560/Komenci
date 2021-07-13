@@ -637,7 +637,6 @@ h1, .h1 {
 .comenci-about-section.comenci-about-page {
     padding: 80px 0;
 }
-
 /*contact page*/
 .comenci-contact-form {
     margin-left: 0;
@@ -660,13 +659,15 @@ h1, .h1 {
 .comenci-section-title {
     margin-bottom: 50px;
 }
-
 /*blog page*/
 .blog-page .media {
     height: auto;
 }
 .comenci-blog-sidebar {
     margin-top: 40px;
+}
+.comenci-recent-post-thumb {
+    flex: 0 0 17%;
 }
 /*faq page*/
 .comenci-faq-sidebar {
@@ -888,6 +889,9 @@ h2, .h2 {
 .comenci-comment-field textarea {
     height: 150px;
 }
+.comenci-recent-post-thumb {
+    flex: 0 0 24%;
+}
 /*service single*/
 .comenci-service-single-title h2 {
     font-size: 34px;
@@ -895,6 +899,10 @@ h2, .h2 {
 }
 .comenci-service-single-video {
     min-height: 350px;
+}
+/*careers page*/
+.comenci-job-footer {
+    margin-top: 15px;
 }
 /*404 page*/
 .comenci-page404-section {
@@ -944,6 +952,12 @@ h2, .h2 {
     margin: 0 2px 8px;
     border-radius: 3px;
     width: 105px;
+}
+.comenci-hero-section.comenci-hero-section2 {
+    min-height: 620px;
+}
+.comenci-hero-content.comenci-hero-content2 {
+    padding-top: 70px;
 }
 
 }
