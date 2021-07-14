@@ -610,7 +610,7 @@ h1, .h1 {
     margin-bottom: 100px;
 }
 .home-three .dot-shape {
-    left: -8%;
+    left: -7%;
     top: -5%;
 }
 .comenci-counter-section.home-three {
@@ -644,7 +644,7 @@ h1, .h1 {
 
 /*about page*/
 .comenci-story-section {
-    padding: 105px 0 80px;
+    padding: 100px 0 80px;
 }
 .comenci-story-section .comenci-progress-thumb {
     margin-bottom: 60px;
@@ -656,6 +656,12 @@ h1, .h1 {
 .comenci-story-section .dot-shape.dot-shape2 {
     right: -7%;
 }
+.comenci-story-section .comenci-progress-thumb:before {
+    right: auto;
+    left: -18px;
+    top: -18px;
+
+}
 .comenci-inner-section {
     padding: 140px 0 80px;
 }
@@ -666,6 +672,10 @@ h1, .h1 {
 .comenci-about-section.comenci-about-page {
     padding: 80px 0;
 }
+.comenci-about-page .dot-shape {
+    bottom: -4%;
+}
+
 /*contact page*/
 .comenci-contact-form {
     margin-left: 0;
@@ -1034,6 +1044,9 @@ a.hero-popup {
 .comenci-company-thumb-wrap {
     margin-bottom: 60px;
 }
+.home-three .dot-shape {
+    left: -6%;
+}
 .home-subscription button#comenci-subscription {
     position: inherit;
     right: inherit;
@@ -1103,6 +1116,10 @@ a.comenci-default-btn.border-btn {
 }
 .comenci-story-section .dot-shape.dot-shape2 {
     right: -5%;
+}
+.comenci-story-section .comenci-progress-thumb:before {
+    left: -8px;
+    top: -10px;
 }
 /*term & condition*/
 .comenci-terms-condition-wrap {
