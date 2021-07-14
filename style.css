@@ -2375,6 +2375,8 @@ TESTIMONIAL SECTION
     left: 50%;
     transform: translateX(-50%);
     bottom: -70px;
+    width: 100%;
+    text-align: center;
 }
 .comenci-testimonial-slider3 .owl-dots .owl-dot span {
     width: 12px;
