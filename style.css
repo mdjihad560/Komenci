@@ -693,10 +693,11 @@ a.icon-btn {
     color: #878CA9;
 }
 a.icon-btn i {
-    font-size: 22px;
+    font-size: 24px;
     position: relative;
-    top: 3px;
+    top: 5px;
     margin-left: 5px;
+    -webkit-text-stroke: 1px #fff;
 }
 .comenci-service-wrap2:hover a.icon-btn{
     color: #FD4C5C;
@@ -805,9 +806,11 @@ SKILL SECTION
     color: #0F1A54;
     margin-bottom: 15px;
 }
-.comenci-service-info ul li i{
+.comenci-service-info ul li i {
     color: #FD4C5C;
     margin-right: 8px;
+    -webkit-text-stroke: #fff 1px;
+    font-size: 18px;
 }
 .comenci-shape3 {
     position: absolute;
@@ -965,9 +968,11 @@ PRICING SECTION
 .comenci-pricing-body ul li:last-child{
     margin-bottom: 0;
 }
-.comenci-pricing-body ul li i{
+.comenci-pricing-body ul li i {
     color: #4A2EB3;
     margin-right: 5px;
+    -webkit-text-stroke: #fff 1px;
+    font-size: 18px;
 }
 .comenci-pricing-footer {
     text-align: center;
@@ -1065,6 +1070,7 @@ TESTIMONIAL SECTION
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
+  -webkit-text-stroke: #FD4C5C 1px;
 }
 .comenci-testimonial-slider .owl-next {
   margin: 0 10px;
@@ -1072,6 +1078,7 @@ TESTIMONIAL SECTION
 .comenci-testimonial-slider .owl-prev:hover, 
 .comenci-testimonial-slider .owl-next:hover{
     background-color: #0F1A54!important;
+    -webkit-text-stroke: #0F1A54 1px;
 }
 
 /*---------------------------------------------------
@@ -1208,6 +1215,7 @@ a.previous-next-btn i {
     top: 12px;
     font-size: 35px;
     left: 0;
+    -webkit-text-stroke: #fff 2px
 }
 .previous-next-pagination-item.right {
     text-align: right;
@@ -1902,8 +1910,8 @@ a.comenci-default-btn.border-btn.yellow-border.active-btn:hover{
 .comenci-pricing-section2 .comenci-pricing-footer {
     text-align: left;
 }
-
-.comenci-pricing-section2 p.bottom_text {
+.comenci-pricing-section2 .comenci-pricing-body ul li i {
+    color: #2B59FF;
 }
 
 /*---------------------------------------------------
@@ -1953,13 +1961,14 @@ TESTIMONIAL SECTION
     border-radius: 5px;
     background-color: #FBC21D!important;
     border: none!important;
-    font-size: 20px!important;
+    font-size: 22px!important;
     transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
     position: absolute;
     transform: translateY(-50%);
+    -webkit-text-stroke: #FBC21D 1px;
 }
 .comenci-testimonial-slider2 .owl-next {
     left: auto;
@@ -1968,6 +1977,7 @@ TESTIMONIAL SECTION
 .comenci-testimonial-slider2 .owl-prev:hover, 
 .comenci-testimonial-slider2 .owl-next:hover{
     background-color: #0F1A54!important;
+    -webkit-text-stroke: #0F1A54 1px;
 }
 .comenci-testimonial-slider2 .owl-dots .owl-dot span {
     width: 12px;
@@ -2303,6 +2313,7 @@ PRICING SECTION
 .home-three .comenci-pricing-body ul li i {
     color: #46DEB1;
     margin-right: 5px;
+    -webkit-text-stroke: #fff 0px;
 }
 .home-three li.cross-icon i{
     color: #FEA5AD!important;
@@ -2414,8 +2425,9 @@ ABOUT PAGE STYLESHEET
 .comenci-breadcrumb ul li a i {
     margin: 0 5px;
     position: relative;
-    font-size: 20px;
-    top: 3px;
+    font-size: 22px;
+    top: 4px;
+    -webkit-text-stroke: #2B59FF 2px;
 }
 .comenci-story-section {
     padding: 150px 0;
@@ -2632,7 +2644,7 @@ BLOG PAGE STYLESHEET
 .blog-pagination ul li a:hover{
     color: #fff;
     background-color: #FD4C5C;
-     border: 1px solid #FD4C5C;
+    border: 1px solid #FD4C5C;
 }
 .blog-pagination ul li a.active{
     color: #fff;
@@ -2640,7 +2652,7 @@ BLOG PAGE STYLESHEET
     border: 1px solid #FD4C5C;
 }
 .blog-pagination ul li a i {
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
     top: 3px;
 }
@@ -2802,6 +2814,10 @@ button#comenci-search-btn {
     overflow: hidden;
     margin-bottom: 20px;
 }
+.blog-page a.icon-btn i {
+    font-size: 18px;
+    top: 3px;
+}
 /*---------------------------------------------------
 PORTFOLIO PAGE STYLESHEET 
 ----------------------------------------------------*/
@@ -2908,13 +2924,20 @@ span.comenci-plus {
     top: 0;
     right: 30px;
     color: #fff;
-    font-size: 30px;
     transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
     visibility: hidden;
     opacity: 0;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
 }
 .comenci-portfolio-thumb:hover span.comenci-plus{
     top: 30px;

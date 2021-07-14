@@ -784,6 +784,12 @@ h2, .h2 {
 .comenci-footer-widget {
     margin-bottom: 35px;
 }
+.footer-home .comenci-footer-widget {
+    margin: 0 0 35px;
+}
+.comenci-footer-menu ul li {
+    margin-bottom: 12px;
+}
 .comenci-footer-top {
     padding: 60px 0 30px;
 }

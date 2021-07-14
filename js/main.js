@@ -64,8 +64,8 @@ var testimonial_slider = $('.comenci-testimonial-slider');
       dots:false,
       autoHeight:true,
       items:1,
-      navText: ["<i class=\"far fa-arrow-left\"></i>",
-      "<i class=\"far fa-arrow-right\"</i>"],
+      navText: ["<i class=\"fas fa-arrow-left\"></i>",
+      "<i class=\"fas fa-arrow-right\"</i>"],
 
       responsive:{
           0:{
@@ -98,8 +98,8 @@ var testimonial_slider2 = $('.comenci-testimonial-slider2');
       dots:true,
       autoHeight:true,
       items:1,
-      navText: ["<i class=\"far fa-arrow-left\"></i>",
-      "<i class=\"far fa-arrow-right\"</i>"],
+      navText: ["<i class=\"fas fa-arrow-left\"></i>",
+      "<i class=\"fas fa-arrow-right\"</i>"],
 
   });
 
@@ -150,8 +150,8 @@ var thumb1_slider = $('.comenci-thumb1-slider');
       dots:false,
       autoHeight:true,
       items:1,
-      navText: ["<i class=\"far fa-arrow-left\"></i>",
-      "<i class=\"far fa-arrow-right\"</i>"],
+      navText: ["<i class=\"fas fa-arrow-left\"></i>",
+      "<i class=\"fas fa-arrow-right\"</i>"],
 
   });
 
