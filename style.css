@@ -696,8 +696,12 @@ a.icon-btn i {
     font-size: 24px;
     position: relative;
     top: 5px;
+    transition: all 0.4s;
     margin-left: 5px;
     -webkit-text-stroke: 1px #fff;
+}
+a.icon-btn:hover i{
+    margin-left: 7px;
 }
 .comenci-service-wrap2:hover a.icon-btn{
     color: #FD4C5C;
@@ -716,7 +720,7 @@ a.icon-btn.color-yellow{
 COMPANY SECTION
 ----------------------------------------------------*/
 .comenci-company-section {
-    padding: 155px 0;
+    padding: 155px 0 180px;
     overflow: hidden;
     background-color: rgba(74, 46, 179, 0.02);
 }
@@ -996,6 +1000,7 @@ TESTIMONIAL SECTION
 ----------------------------------------------------*/
 .comenci-testimonial-section {
     position: relative;
+    padding: 130px 0;
 }
 .comenci-shpae5 {
     position: absolute;
@@ -1582,7 +1587,7 @@ a.comenci-default-btn.orange-btn:hover{
 SKILLBAR SECTION
 ----------------------------------------------------*/
 .comenci-skillbar-section {
-    padding: 154px 0 160px;
+    padding: 154px 0 165px;
 }
 .comenci-skillbar-section .comenci-default-content.comenci-default-content2 {
     margin-right: 80px;
@@ -1918,7 +1923,7 @@ a.comenci-default-btn.border-btn.yellow-border.active-btn:hover{
 TESTIMONIAL SECTION
 ----------------------------------------------------*/
 .comenci-testimonial-section.comenci-testimonial-section2 {
-    padding: 130px 0 200px;
+    padding: 130px 0 195px;
 }
 .comenci-testimonial-section2 .comenci-testimonial-wrap {
     max-width: 636px;
@@ -2151,6 +2156,9 @@ SERVICE SECTION
 /*---------------------------------------------------
 ABOUT SECTION 
 ----------------------------------------------------*/
+.home-three.comenci-about-section {
+    padding: 130px 0 165px;
+}
 .home-three .comenci-about-thumb2 {
     width: 48%;
     bottom: -7%;
@@ -2430,8 +2438,9 @@ ABOUT PAGE STYLESHEET
     -webkit-text-stroke: #2B59FF 2px;
 }
 .comenci-story-section {
-    padding: 150px 0;
+    padding: 155px 0 160px;
     position: relative;
+    background-color: rgba(43, 89, 255, 0.02);
 }
 .comenci-story-section .comenci-progress-thumb {
     width: 96%;
@@ -2449,7 +2458,7 @@ ABOUT PAGE STYLESHEET
     right: -16%;
 }
 .comenci-about-section.comenci-about-page {
-    padding: 130px 0 240px;
+    padding: 130px 0 195px;
 }
 .comenci-about-page .dot-shape {
     bottom: -7%;

@@ -39,6 +39,14 @@ h2, .h2 {
 .comenci-team-thumb {
     height: 250px;
 }
+.comenci-testimonial-section {
+    padding: 130px 0 190px;
+}
+.comenci-testimonial-slider .owl-nav {
+    position: inherit;
+    left: inherit;
+    bottom: -60px;
+}
 .comenci-testimonial-item p {
     font-size: 16px;
 }
@@ -49,9 +57,6 @@ h2, .h2 {
     margin-left: 25px;
 }
 
-.comenci-testimonial-slider .owl-nav {
-    bottom: -70px;
-}
 /*v2*/
 .comenci-hero-section.comenci-hero-section2:after, 
 .comenci-hero-section.comenci-hero-section2:before {
@@ -89,6 +94,9 @@ h2, .h2 {
     margin-left: 44px;
     font-size: 16px;
 }
+.home-three.comenci-about-section {
+    padding: 130px 0 150px;
+}
 .home-three .comenci-testimonial-item {
     padding: 25px;
 }
@@ -108,6 +116,9 @@ h2, .h2 {
 }
 .comenci-about-thumb2 {
     right: -35%;
+}
+.comenci-story-section {
+    padding: 155px 0 150px;
 }
 
 /*contact page*/
@@ -213,7 +224,7 @@ h3, .h3 {
     padding: 100px 0 76px;
 }
 .comenci-skillbar-section {
-    padding: 130px 0 100px;
+    padding: 120px 0 100px;
 }
 .comenci-blog-section.padding-less-bottom {
     padding: 100px 0 70px;
@@ -225,7 +236,7 @@ h3, .h3 {
     padding: 15px;
 }
 .comenci-testimonial-section {
-    padding: 100px 0 150px;
+    padding: 100px 0 160px;
 }
 .service-one .comenci-default-content {
     margin: 0 0 30px;
@@ -288,7 +299,7 @@ h3, .h3 {
     padding: 100px 0;
 }
 .comenci-testimonial-section.comenci-testimonial-section2 {
-    padding: 100px 0 170px;
+    padding: 100px 0 165px;
 }
 .comenci-testimonial-slider2 .owl-prev, 
 .comenci-testimonial-slider2 .owl-next {
@@ -317,6 +328,9 @@ h3, .h3 {
 .hero-thumb {
     position: relative;
     left: 0;
+}
+.home-three.comenci-about-section {
+    padding: 100px 0;
 }
 .comenci-hero-section.comenci-hero-section3 {
     min-height: 700px;
@@ -447,6 +461,14 @@ h3, .h3 {
 .site-menu-main .sub-menu.shape-none {
     margin-left: 0;
 }
+ul.site-menu-main .nav-item:hover i, 
+li.sub-menu--item.nav-item-has-children:hover i {
+    transform: rotate(0deg)!important;
+}
+.site-menu-main > li > a i, 
+li.sub-menu--item.nav-item-has-children i {
+    transform: rotate(0deg)!important;
+}
 h1, .h1 {
     font-size: 50px;
     line-height: 56px;
@@ -474,10 +496,10 @@ h1, .h1 {
 .comenci-service-section.padding-less-bottom, 
 .testimonial-page-section, 
 .comenci-portfolio-section.padding-less-bottom {
-    padding: 80px 0 52px;
+    padding: 80px 0 56px;
 }
-.comenci-skillbar-section{
-    padding: 110px 0 80px;
+.comenci-skillbar-section {
+    padding: 105px 0 80px;
 }
 .comenci-blog-section.padding-less-bottom {
     padding: 80px 0 50px;
@@ -486,7 +508,7 @@ h1, .h1 {
     height: auto;
 }
 .comenci-testimonial-section {
-    padding: 80px 0 150px;
+    padding: 80px 0 140px;
 }
 .comenci-company-thumb-wrap {
     margin-bottom: 85px;
@@ -541,7 +563,7 @@ h1, .h1 {
     margin-bottom: 30px;
 }
 .comenci-about-thumb {
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 .comenci-about-thumb2 {
     right: -37%;
@@ -557,7 +579,7 @@ h1, .h1 {
     margin-bottom: 0;
 }
 .comenci-testimonial-section.comenci-testimonial-section2 {
-    padding: 80px 0 150px;
+    padding: 80px 0 145px;
 }
 .comenci-testimonial-slider2 .owl-prev, 
 .comenci-testimonial-slider2 .owl-next {
@@ -580,9 +602,16 @@ h1, .h1 {
 .comenci-logo-item {
     flex: 0 0 14%;
 }
+.home-three.comenci-about-section {
+    padding: 95px 0 80px;
+}
 .home-three .comenci-about-thumb {
     width: 88%;
     margin-bottom: 100px;
+}
+.home-three .dot-shape {
+    left: -8%;
+    top: -5%;
 }
 .comenci-counter-section.home-three {
     padding: 80px 0 50px;
@@ -615,7 +644,7 @@ h1, .h1 {
 
 /*about page*/
 .comenci-story-section {
-    padding: 102px 0 80px;
+    padding: 105px 0 80px;
 }
 .comenci-story-section .comenci-progress-thumb {
     margin-bottom: 60px;
@@ -711,6 +740,12 @@ h1, .h1 {
     font-size: 45px;
     line-height: 52px;
 }
+.comenci-hero-section.comenci-hero-section2 {
+    min-height: 620px;
+}
+.comenci-hero-content.comenci-hero-content2 {
+    padding-top: 70px;
+}
 .comenci-company-section {
     padding: 140px 0 60px;
 }
@@ -737,13 +772,13 @@ h1, .h1 {
 .comenci-service-section.padding-less-bottom, 
 .testimonial-page-section, 
 .comenci-portfolio-section.padding-less-bottom {
-    padding: 60px 0 28px;
+    padding: 60px 0 35px;
 }
 .comenci-team-section.padding-less-bottom {
     padding: 60px 0 30px;
 }
-.comenci-skillbar-section{
-    padding: 90px 0 60px;
+.comenci-skillbar-section {
+    padding: 85px 0 60px;
 }
 .comenci-blog-section.padding-less-bottom {
     padding: 60px 0 30px;
@@ -777,7 +812,6 @@ h2, .h2 {
     bottom: -75px;
     text-align: center;
 }
-
 .comenci-subscription-wrap {
     text-align: center;
 }
@@ -794,6 +828,9 @@ h2, .h2 {
     padding: 60px 0 30px;
 }
 /*v2*/
+.comenci-about-thumb {
+    margin-bottom: 115px;
+}
 .comenci-hero-section.comenci-hero-section2:after, 
 .comenci-hero-section.comenci-hero-section2:before {
     left: 0;
@@ -818,7 +855,7 @@ h2, .h2 {
 }
 
 .comenci-testimonial-section.comenci-testimonial-section2 {
-    padding: 60px 0 130px;
+    padding: 60px 0 122px;
 }
 .comenci-testimonial-slider2 .owl-prev, 
 .comenci-testimonial-slider2 .owl-next {
@@ -842,6 +879,12 @@ h2, .h2 {
 }
 .comenci-logo-section {
     padding: 60px 0 30px;
+}
+.home-three.comenci-about-section {
+    padding: 85px 0 60px;
+}
+.home-three .comenci-about-thumb {
+    margin-bottom: 60px;
 }
 .home-three .comenci-single-counter {
     justify-content: center;
@@ -959,12 +1002,7 @@ h2, .h2 {
     border-radius: 3px;
     width: 105px;
 }
-.comenci-hero-section.comenci-hero-section2 {
-    min-height: 620px;
-}
-.comenci-hero-content.comenci-hero-content2 {
-    padding-top: 70px;
-}
+
 
 }
 
@@ -1045,6 +1083,9 @@ a.comenci-default-btn.border-btn {
     margin-bottom: 30px;
     max-width: 150px;
 }
+.home-three .comenci-about-thumb {
+    margin-bottom: 50px;
+}
 .home-three .col-lg-3.col-md-6.col-sm-6:last-child .comenci-service-wrap.comenci-service-wrap2{
     margin-bottom: 0
 }
@@ -1077,8 +1118,6 @@ a.comenci-default-btn.border-btn {
 .comenci-portfolio-menu {
     margin-bottom: 30px;
 }
-
-
 /*blog page*/
 .comenci-comment-user-item {
     display: block;
